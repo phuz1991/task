@@ -1,6 +1,6 @@
 # My Playwright Test Automation Project
 
-![Playwright Logo](https://playwright.tech/assets/images/playwright-logo.svg)
+![Playwright Logo](https://playwright.dev/img/playwright-logo.svg)
 
 ## Table of Contents
 
