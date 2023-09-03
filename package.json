@@ -6,6 +6,7 @@
   "scripts": {
     "test": "playwright test --headed",
     "test:ci": "playwright test",
+    "format": "prettier --write \"**/*.+(js|ts|tsx|json|css|md)\"",
     "ui": "playwright test --ui"
   },
   "keywords": [],
@@ -15,6 +16,7 @@
     "@playwright/test": "^1.37.1"
   },
   "dependencies": {
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "prettier": "^3.0.3"
   }
 }
