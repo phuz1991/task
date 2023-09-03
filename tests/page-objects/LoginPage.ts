@@ -2,7 +2,7 @@ import * as dotenv from "dotenv"
 
 dotenv.config()
 import {expect, Page, Locator} from "@playwright/test";
-import {LayoutSelectors, LoginSelectors} from "../selectors/selectors";
+import {LoginSelectors} from "../selectors/selectors";
 
 const formData = {
     email: process.env.EMAIL ?? 'admin@example.com',
